@@ -3,34 +3,34 @@ import streamlit as st
 #HAPPY DIWALI
 
 
-print("🪔HAPPY DIWALI🪔")
-print("=====================")
+st.write("🪔HAPPY DIWALI🪔")
+st.write("=====================")
 
-print("Wishing you a joyous and prosperous Diwali filled with love, light, and happiness!")
-print("======================================================================================")
+st.write("Wishing you a joyous and prosperous Diwali filled with love, light, and happiness!")
+st.write("======================================================================================")
 
-print("May the festival of lights bring you and your family good health, wealth, and success in all your endeavors.")
-print("===============================================================================================================")
+st.write("May the festival of lights bring you and your family good health, wealth, and success in all your endeavors.")
+st.write("===============================================================================================================")
 
-name= input("Enter your name: ")
-print(f"Happy Diwali, {name}! 🪔")
+name= st.text_input("Enter your name: ")
+st.write(f"Happy Diwali, {name}! 🪔")
 
-print("What would you like to do today?")
-print("1. Light diyas! 🪔")
-print("2. Burst crackers! 🎆")
-print("3. Enjoy sweets! 🍬")
-print("4. Decorate your home! 🏠")
+st.write("What would you like to do today?")
+st.write("1. Light diyas! 🪔")
+st.write("2. Burst crackers! 🎆")
+st.write("3. Enjoy sweets! 🍬")
+st.write("4. Decorate your home! 🏠")
 
-activity=input("Enter your choice")
+activity = st.selectbox("Enter your choice")
 
 match activity:
     case "1":
-        print("Light diyas! 🪔")
+        st.write("Light diyas! 🪔")
     case "2":
-        print("Burst crackers! 🎆")
+        st.write("Burst crackers! 🎆")
     case "3":
-        print("Enjoy sweets! 🍬")
+        st.write("Enjoy sweets! 🍬")
     case "4":
-        print("Decorate your home! 🏠")
+        st.write("Decorate your home! 🏠")
     case _:
-        print("You don't have any other option, but you can still enjoy the festival! 🪔")
+        st.write("You don't have any other option, but you can still enjoy the festival! 🪔")
