@@ -21,7 +21,7 @@ st.write("2. Burst crackers! 🎆")
 st.write("3. Enjoy sweets! 🍬")
 st.write("4. Decorate your home! 🏠")
 
-activity = st.selectbox("Enter your choice (1,2,3,or 4):")
+activity = st.text_input("Enter your choice (1,2,3,or 4):")
 
 match activity:
     case "1":
