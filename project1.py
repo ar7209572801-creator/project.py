@@ -4,10 +4,10 @@ import streamlit as st
 
 
 st.write("🪔HAPPY DIWALI🪔")
-st.write("=====================")
+st.write("====================")
 
 st.write("Wishing you a joyous and prosperous Diwali filled with love, light, and happiness!")
-st.write("======================================================================================")
+st.write("================================================================================")
 
 st.write("May the festival of lights bring you and your family good health, wealth, and success in all your endeavors.")
 st.write("===============================================================================================================")
